@@ -1,9 +1,10 @@
 import React from "react"
 import ReactDOM from "react-dom"
+import { Mancala } from "app/Mancala";
 
 class App extends React.Component {
     render(){
-        return (<div>test</div>)
+        return (<Mancala />)
     }
 }
 
